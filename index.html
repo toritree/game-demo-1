@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Demo page</title>
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <svg id="mainSvg" viewBox="0 0 100 100"></svg>
+  <div id="hp"></div>
+  <dialog id="load">
+    <div>
+      <h1>GAME</h1>
+      <span>a/w/s/d key</span>
+      <button class="blank" id="start">start</button>
+    </div>
+    <footer>
+      <span class="github">
+        GitHub:<address><a href="https://github.com/toritree">@toritree</a></address>
+      </span>
+    </footer>
+  </dialog>
+  <dialog id="gameOver">
+    <h1>game over</h1>
+    <span id="gameOver-sc"></span>
+    <span id="gameOver-max-sc"></span>
+    <button id="gameOver-retry">retry</button>
+  </dialog>
+</body>
+
+</html>
